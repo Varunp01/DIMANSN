@@ -1,0 +1,21 @@
+.background {
+    /* background-image: url("https://w7.pngwing.com/pngs/120/294/png-transparent-diagonal-lines-pattern-thumbnail.png"); */
+    background-image: url("https://i.ibb.co/TKxscFB/background-10.png");
+    /* background-size: 100% 100%; */
+    /* opacity: 0.1; */
+    height: 100%;
+    width: 100%;
+  }
+
+  .righteous-regular {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* background-color: rgba(112, 128, 144, 0.461); */
+  }
+  .roboto-condensed {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
