@@ -1,3 +1,4 @@
+import { Outlet, Link } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 function Home() {
@@ -31,7 +32,7 @@ function Home() {
             <div className="partthree flex justify-center">
             </div>
             <div className="w-full sm:flex justify-center items-center my-8">
-                <div className="sm:w-3/5">
+                <div className="sm:w-2/5">
                     <div className="partFourHeading flex justify-center items-center text-2xl sm:ml-3 font-mono sm:text-6xl">What Makes Us Stand Out?</div>
                     <div className="mx-4 mt-4 partFourHeading flex justify-center items-center text-sm sm:ml-3 font-mono">TO BE A PROMINENT ARCHITECTURAL PRACTICE THAT IS CLIENT-ORIENTED, INNOVATIVE, AND FOCUSED ON QUALITY. WE DREAM OF AN ARCHITECTURALLY INSPIRED WORLD THAT WILL BE PERFECTLY COORDINATED IN EVERY PLACE.</div>
                 </div>
@@ -99,6 +100,7 @@ function Home() {
                     </div>
                 </Carousel>
             </div>
+            <Outlet />
         </>
     )
 }

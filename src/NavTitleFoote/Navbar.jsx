@@ -1,3 +1,4 @@
+import { Outlet, Link } from "react-router-dom";
 import { FaGlobe } from "react-icons/fa";
 import { MdOutlineWifiCalling3 } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
@@ -18,6 +19,7 @@ function Navbar() {
           <FaFacebook className="mx-8 md:mx-3"/><FaTwitter className="mx-8 md:mx-3"/><FaLinkedin className="mx-8 md:mx-3"/>
           </div>
         </div>
+        <Outlet />
     </>
   )
 }
